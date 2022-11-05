@@ -16,14 +16,17 @@
   height: 100%;
   border: 3px solid black;
   background-color: #bbb;
+  
+  
 }
+
 
 
 .swiper-slide {
   text-align: center;
   background: #fff;
   border: 3px solid rgb(175, 74, 74);
-  height: 100%;
+  height: 10em;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,6 +40,9 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
 }
 
 
