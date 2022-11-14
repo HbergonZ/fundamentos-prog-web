@@ -13,17 +13,17 @@ body {
   
 }
 
-a {
+.mtop a{
   color:aliceblue;
   text-decoration: none;
   transition: 0.3s;
 }
 
-a:hover {
-opacity: 0.7;
-text-decoration: none;
+.mtop a:hover{
+  color:rgb(204, 56, 241);
+  text-decoration: none;
+  transition: 0.3s;
 }
-
 
 .logo {
 font-size: 100px;
@@ -34,10 +34,13 @@ background: #360834;
 margin-left: 0.3%;
 margin-top: -0.8rem;
 margin-bottom: auto;
+color: white;
 }
 
 .logo:hover{
   color: rgb(187, 78, 233);
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 nav {
@@ -52,6 +55,7 @@ background: #360834;
 
 nav li {
 display: inline-block;
+
 }
 
 .nav-list{
@@ -59,6 +63,7 @@ display: inline-block;
   text-transform: uppercase;
   margin-top: auto;
   margin-bottom: auto;
+  
 }
 
 .nav-list li {
@@ -174,6 +179,12 @@ border-bottom: 1px solid #964991;
   border-bottom: 1px solid #964991;
 }
 
+.img-top a{
+  color:aliceblue;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
 .img-top h2{
   margin-top: 3rem;
   font-size: 2.5rem;
@@ -223,6 +234,11 @@ border-bottom: 1px solid #964991;
 /* ----------------------------------------------------------------------------------- */
 /* Classes do Luis */
 /* ----------------------------------------------------------------------------------- */
+
+.Lbotao:hover{
+  color: yellow!important;
+  background-color: #964991;
+}
 
 .img-top a{
   border: solid 1px yellow;
@@ -410,23 +426,58 @@ border-bottom: 1px solid #964991;
 
 /* VIDEO YOUTUBE */
 
-responsive-video {
+/* responsive-video {
   background-color: black;
-  /*margin: 50px -20px 30px -20px;*/
   padding: 20px;
   padding-bottom: 50%;
   position: relative;
 
   
-}
+} */
 
-responsive-video > iframe{
+/* responsive-video > iframe{
   position: absolute;
   top: 5%;
   left: 5%;
   width: 90%;
   margin: 0 0 65px 0;
   font-size: 40px;
+} */
+
+.cont{
+  min-width: 20rem;
+  max-width: 100rem;
+  padding-top: 1.8rem;
+}
+
+.bkg-cursosarea{
+  background-image: url(/imagens/purplebkg5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bkg-cursosarea1{
+  /* background-color: rgb(115, 19, 124); */
+  background-image: url(/imagens/purblebkg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.titleborda{
+  border-top: 1px solid rgb(196, 31, 247);
+  border-bottom: 1px solid rgb(196, 31, 247);
+  height: 8rem;
+}
+
+.wvideo{
+  margin-top: 3rem;
+}
+
+.wvideo1{
+  /* background-color: rgb(238, 211, 248); */
+  background-image: url(/imagens/purblebkg4.jpg);
+  border-bottom: 1px solid rgb(196, 31, 247);
 }
 
 /*
@@ -485,6 +536,7 @@ Configura o texto do meio da pagina
 
 #contact-area {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .contact-box {
@@ -577,6 +629,7 @@ Configura o texto do meio da pagina
 
 .wimagens{
   background-color: #FFF;
+  border: 3px solid rgb(167, 90, 230);
 }
 .wtexto{
   color: rgb(255, 255, 255);
@@ -591,6 +644,33 @@ Configura o texto do meio da pagina
   position:relative;
   text-align: center;
   align-items: center;
+}
+
+.wcursospromo{
+  background-color: black;
+  margin-left: -3rem;
+}
+
+.wcontato{
+  border: solid 1px white;
+  padding-top: 3rem;
+  padding-bottom: -2rem;
+}
+
+.faleconosco{
+  /* border: solid 1px white; */
+  margin-top: 3rem;
+  margin-left: 30%;
+}
+
+.wimagens1{
+  border: 4px solid rgb(57, 3, 68);
+  border-radius: 1rem;
+}
+
+.wimagens1:hover{
+  border: 4px solid rgb(192, 11, 183);
+  opacity: 1!important;
 }
 
 

@@ -40,8 +40,8 @@
             </head>
             <body>
             <head>
-                <nav>
-                  
+                <div class="mtop">
+                  <nav>
                     <a class="logo" href="">Dev$</a>
                     <form class="form-inline my-0 my-lg-0 lozano-search">
                       <div class="cor_barra_pesquisa">
@@ -60,32 +60,37 @@
                             <!-- </div> -->
                         </a></li>
                     </ul>            
-                </nav>
-                <header>
-                    <nav class="nav-lis">
-                      <div>
-                          <ul class='testeL'>
-                              <li ><a href="">Lógica</a></li>
-                              <li><a href="">Front-End</a></li>
-                              <li><a href="">Redes</a></li>
-                              <li><a href="">Back-End</a></li>
-                              <li><a href="">Java</a></li>
-                              <li><a href="">Css</a></li>
-                              <li><a href="">HTML</a></li>
-                              <li><a href="">C++</a></li>
-                              <li><a href="">C#</a></li>
-          
-                          </ul>
-                      </div> 
-                </nav>
-                </header>
+                  </nav>
+                  <header>
+                      <nav class="nav-lis">
+                        <div>
+                            <ul class='testeL'>
+                                <li ><a href="">Lógica</a></li>
+                                <li><a href="">Front-End</a></li>
+                                <li><a href="">Redes</a></li>
+                                <li><a href="">Back-End</a></li>
+                                <li><a href="">Java</a></li>
+                                <li><a href="">Css</a></li>
+                                <li><a href="">HTML</a></li>
+                                <li><a href="">C++</a></li>
+                                <li><a href="">C#</a></li>
+            
+                            </ul>
+                        </div> 
+                  </nav>
+                  </header>
+                </div>
+                
             </head>
             
             <div class="img-top">
               
               <h2>Venha desenvolver seu futuro!</h2>
               <p>Prepare-se para aplicar em seu dia a dia técnicas de gestão de produtos e projetos, agilidade, liderança, desenvolvimento pessoal e muito mais. Conheça os principais conceitos de boas práticas de gestão de produtos e projetos e se aprofunde em estratégias de metodologias ágeis.</p>
-              <a href="#" class="Lbotao">Comece agora!</a>
+              <div>
+                <a class="Lbotao" href="#">Comece agora!</a>
+              </div>
+              
             </div>
             
                 
@@ -98,13 +103,16 @@
           <h3>Conheça nossos Cursos</h3>
           <div class = "teste"><p></p></div>
         </div> -->
-        <div class="container wcontainer">
-          <div class="row wrow">
-            <div class="col-md-12 wcol-md-12">
-              <h3 class="main-title wmain-title lmain-tltle">Cursos mais procurados da plataforma</h3>
+        <div class="titleborda">
+          <div class="container wcontainer">
+            <div class="row wrow">
+              <div class="col-md-12 wcol-md-12 ">
+                <h3 class="main-title wmain-title lmain-tltle ">Cursos mais procurados da plataforma</h3>
+              </div>
             </div>
           </div>
         </div>
+        
         
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -187,31 +195,31 @@
             
         <!-- Promoção de Cursos da Plataforma (Wellington)-->
         <section>
-          <br>
-          <div id="cursos-area">
+          <div class="col-md-12 titleborda">
+                  
+            <h3 class="main-title lmain-tltle">Conheça nossos Cursos</h3>
+          </div>
+          <div id="cursos-area" class="bkg-cursosarea" >
             <div class="container cont">
               <div class="row">
-                <div class="col-md-12">
-                  
-                  <h3 class="main-title lmain-title">Conheça nossos Cursos</h3>
+              
+                <div class="col-md-4 project-box">
+                <a href=""><img src="imagens/javascript.png" class="img-fluid wimagens1" alt="Projeto 1"></a>
                 </div>
                 <div class="col-md-4 project-box">
-                <a href=""><img src="imagens/javascript.png" class="img-fluid" alt="Projeto 1"></a>
+                  <a href=""><img src="imagens/javascript.png" class="img-fluid wimagens1" alt="Projeto 1"></a>
                 </div>
                 <div class="col-md-4 project-box">
-                  <a href=""><img src="imagens/javascript.png" class="img-fluid" alt="Projeto 1"></a>
+                  <a href=""><img src="imagens/javascript.png" class="img-fluid wimagens1" alt="Projeto 1"></a>
                 </div>
                 <div class="col-md-4 project-box">
-                  <a href=""><img src="imagens/javascript.png" class="img-fluid" alt="Projeto 1"></a>
+                  <a href=""><img src="imagens/javascript.png" class="img-fluid wimagens1" alt="Projeto 1"></a>
                 </div>
                 <div class="col-md-4 project-box">
-                  <a href=""><img src="imagens/javascript.png" class="img-fluid" alt="Projeto 1"></a>
+                  <a href=""><img src="imagens/javascript.png" class="img-fluid wimagens1" alt="Projeto 1"></a>
                 </div>
                 <div class="col-md-4 project-box">
-                  <a href=""><img src="imagens/javascript.png" class="img-fluid" alt="Projeto 1"></a>
-                </div>
-                <div class="col-md-4 project-box">
-                  <a href=""><img src="imagens/javascript.png" class="img-fluid" alt="Projeto 1"></a>
+                  <a href=""><img src="imagens/javascript.png" class="img-fluid wimagens1" alt="Projeto 1"></a>
                 </div>
               </div>
             </div>
@@ -221,12 +229,12 @@
         <section>
           <!-- Promoção de Cursos da Plataforma (Wellington)-->
           <div>
-            <div id="wpromocoes">
-              <div class="container">
+            <div class="col-md-12 titleborda">
+              <h3 class="main-title lmain-tltle">Cursos em Promoção</h3>
+            </div>
+            <div id="wpromocoes" class="bkg-cursosarea1">
+              <div class="container cont">
                 <div class="row">
-                  <div class="col-md-12">
-                    <h3 class="main-title">Cursos em Promoção</h3>
-                  </div>
                   <div class="col-md-4 service-box" >
                     
                     <div class="wimagens">
@@ -263,7 +271,7 @@
                 
               </div>
         
-              <div class="col-md-4 service-box">
+              <div class="col-md-4 service-box ">
                     
                 <div class="wimagens">
                   <a href=""><img src="imagens/python.png" class="card-img-top" alt="Imagem de Perfil 1"></a>                </div>
@@ -299,33 +307,34 @@
               </div>
             </div>
           </div>
-          <br>
           </section>
           <section>
 
-            <div id="cursos-area">
+            <div class="col-md-12 titleborda">
+              <h3 class="main-title lmain-tltle">Conheça Nosso Método</h3>
+            </div>
+
+            <div id="cursos-area" class="wvideo1">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-12">
-                    <h3 class="main-title">Conheça Nosso Método</h3>
-                  </div>
+                  
               
                   <div class="container">
                     <div class="row">
                       <div class="col-md-12">
               <div class="wvideo">
-              <div class="responsive-video">
-          
-                <iframe loading="lazy" id="_ytid_28013" width="426" height="240" 
-                data-origwidth="426" data-origheight="240" 
-                src="https://www.youtube.com/embed/RIaIpxfDgNM?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;cc_lang_pref=&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=0&amp;rel=0&amp;fs=1&amp;playsinline=0&amp;autohide=2&amp;theme=dark&amp;color=red&amp;controls=1&amp;" 
-                class="__youtube_prefs__  epyt-is-override  no-lazyload" 
-                title="Como aprender a programar em qualquer linguagem?" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-                gyroscope; picture-in-picture" allowfullscreen="" data-no-lazy="1" 
-                data-skipgform_ajax_framebjll="" data-gtm-yt-inspected-6="true">
-              </iframe>
-            </div>
+                <div class="responsive-video">
+            
+                  <iframe loading="lazy" id="_ytid_28013" width="600" height="400" 
+                  data-origwidth="426" data-origheight="240" 
+                  src="https://www.youtube.com/embed/RIaIpxfDgNM?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;cc_lang_pref=&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=0&amp;rel=0&amp;fs=1&amp;playsinline=0&amp;autohide=2&amp;theme=dark&amp;color=red&amp;controls=1&amp;" 
+                  class="__youtube_prefs__  epyt-is-override  no-lazyload" 
+                  title="Como aprender a programar em qualquer linguagem?" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                  gyroscope; picture-in-picture" allowfullscreen="" data-no-lazy="1" 
+                  data-skipgform_ajax_framebjll="" data-gtm-yt-inspected-6="true">
+                  </iframe>
+                </div>
               </div>
             </div>
             </div>
@@ -340,13 +349,13 @@
 
 
         <footer>
+          <!-- <div class="col-md-12 titleborda">
+            <h3 class="main-title lmain-tltle">Nossos Contatos</h3>
+          </div> -->
           <div id="contact-area">
             <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-                    <h3 class="main-title">Nossos Contatos</h3>
-                  </div>
-                 
+                <div class="row wcontato">
+                  
                   <div class="col-md-4 contact-box">
                     <i class="fas fa-map-marker-alt"></i>
                     <div class="wtextocolor"><p><span class="contact-tile">Endereço:</span> Av Calama 1234, IFRO</p></div>
@@ -360,7 +369,8 @@
                     <i class="fas fa-envelope"></i>
                     <div class="wtextocolor"> <p><span class="contact-tile">E-mail:</span> e-mail@email.com.br</p></div>
                   </div> 
-      
+                </div>
+                <div class="faleconosco">
                   <div class="col-md-6" id="msg-box">
                     
                     <div class="wtextocolor"><p>Fale conosco:</p></div>
@@ -370,12 +380,13 @@
                      <input type="text" class="form-control" placeholder="E-mail"name="email">
                       <input type="text" class="form-control" placeholder="Assunto" name="subject">
                       <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
-                      <input type="submit" class="main-btn">
+                      <button onclick="myFunction()">Enviar</button>
                     </form>
                     <br><br><br><br>
                   </div> 
-               
                 </div>
+               
+                
             </div>
           </div>
           <div id="copy-area">
