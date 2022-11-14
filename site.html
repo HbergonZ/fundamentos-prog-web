@@ -8,7 +8,6 @@
         <meta name="author" content="Luis">
         <meta name="description" content="lista de documentos">
         <meta name="keywords" content="html5, tecnologia">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="style.css">
 
         <!-- Adições do Luis -->
@@ -19,61 +18,99 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-
-
-        <!-- ------------------------- -->
     </head>
-    <body>
+
+        <!-- Marcela -->
+        <!-- ------------------------- -->
+
+        <!--Estrutura Básica-->
+        <!doctype html>
+        <!-- Doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+        <html lang="pt-br">
+            <head>
+                <title>Página Inicial</title>
+                <meta charset="uft-8">
+                <meta name="author" content="Luis">
+                <meta name="description" content="lista de documentos">
+                <meta name="keywords" content="html5, tecnologia">
+                <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+            <head>
+                <nav>
+                  
+                    <a class="logo" href="">Dev$</a>
+                    <form class="form-inline my-0 my-lg-0 lozano-search">
+                        <div class="cor_barra_pesquisa">
+                        <input type="search" placeholder="Qual curso você procura?" aria-label="Qual curso você procura?"> 
+                        </div>
+                    </form>
+                        <ul class="nav-list">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Informações</a></li>
+                        <li><a href="">Manual</a></li>
+                        <li><a href="">Entrar</a></li>
+                        <li class="cor">|</li>
+                        <li><a href="">
+                            <!-- <div class="container"> -->
+                                <div class="button">Matriculas</div>
+                            <!-- </div> -->
+                        </a></li>
+                    </ul>            
+                </nav>
+                <header>
+                    <nav class="nav-lis">
+                    <div>
+                        <ul>
+                            <li ><a href="">Lógica</a></li>
+                            <li><a href="">Front-End</a></li>
+                            <li><a href="">Redes</a></li>
+                            <li><a href="">Back-End</a></li>
+                            <li><a href="">Java</a></li>
+                            <li><a href="">Css</a></li>
+                            <li><a href="">HTML</a></li>
+                            <li><a href="">C++</a></li>
+                            <li><a href="">C#</a></li>
         
-        <!-- Cabeçalho  (Marcela) -->
-        <!-- ------------------------------------------------------------------------------------------- -->
-       <section>
-            <header>
-                <div class="barra"> </div>
+                        </ul>
+                    </div> 
+                </nav>
+                </header>
+            </head>
+            
+            <div class="img-top">
+              
+              <h2>Venha desenvolver seu futuro!</h2>
+              <p>Prepare-se para aplicar em seu dia a dia técnicas de gestão de produtos e projetos, agilidade, liderança, desenvolvimento pessoal e muito mais. Conheça os principais conceitos de boas práticas de gestão de produtos e projetos e se aprofunde em estratégias de metodologias ágeis.</p>
+              <a href="#" class="btn btn-primary botao">Comece agora!</a>
+            </div>
+            
                 
-                <section class="Marcela">
-                    <div> 
-                        
-                        <table id="table1">
-                            <section>
-                            <tr>
-                                <td>Seja bem-vindo ao Cursos Lives</td>
-                                <td><input type="text"  placeholder="Qual curso" size="10">  <input type="submit" value="Buscar"></td>
-                            </tr>
-                            </section>
-                        </table>
-                    </div>
+        
 
-                    <table class="top-nav">
-                        <tr>
-                            <td><a href="">Início</a></td>
-                            <td><a href="">Informações</a></td>
-                            <td><a href="">Fale Conosco</a></td>
-                            <td><a href="">Portal do Aluno</a></td>
-                            <td><a href="">Matricule-se</a></td>
-                        </tr>
-                    </table>
-                </section> 
-                
-                
-
-            </header>
-        </section>
         <!-- ------------------------------------------------------------------------------------------- -->
 
         <!-- Conteúdo Principal -->
+        <div class="titulo-principal">
+          <h3>Conheça nossos Cursos</h3>
+          <div class = "teste"><p></p></div>
+        </div>
+        
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner carrossel-dentro">
                   <div class="carousel-item active">
                     <div class="cards-wrapper">
-                        <div class="card card1">
-                            <!-- <img src="/imagens/curso.png" class="card-img-top" alt="..."> -->
+                        <div class="card">
                           <div class="card-body">
+                            <div class="cartao-texto">
                             <h5 class="card-title">Segurança em TI</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Confira!</a>
+                            </div>
+                            <div class="card1">
+                              <a href="#" class="btn btn-primary">Confira!</a>
+                            </div>
+                            
                           </div>
                         </div>
                         <div class="card card2">
@@ -117,7 +154,7 @@
                           <div class="card-body">
                             <h5 class="card-title">Marketing Digital</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Confira!</a>
+                            <a href="#" class="btn btn-primary botao">Confira!</a>
                           </div>
                         </div>
                       </div>
@@ -135,62 +172,15 @@
                 
               </div>
         </section>
+
+
             
         <!-- Promoção de Cursos da Plataforma (Wellington)-->
-        <section class="Wellington">
-            <h2>Promoção de Cursos</h2>
-            <div>
-                <div class="">
-                    <h3><a href="#">Distribuição de serviços da nuvem</a></h3>
-                    <img src="imagens/promoção.png" alt="" height="180" width="190">
-                    <h4>De: R$ XXX,00</h4>
-                    <h4>Por: R$ XXX,00</h4>
-                </div>
-
-                <div class="">
-                    <h3><a href="#">Python para iniciantes</a></h3>
-                    <img src="imagens/promoção.png" alt="" height="180" width="190">
-                    <h4>De: R$ XXX,00</h4>
-                    <h4>Por: R$ XXX,00</h4>
-                </div>
-
-                <div class="">
-                    <h3><a href="#">Desenvolvimento de jogos digitais</a></h3>
-                    <img src="imagens/promoção.png" alt="" height="180" width="190">
-                    <h4>De: R$ XXX,00</h4>
-                    <h4>Por: R$ XXX,00</h4>
-                </div>
-
-                <div class="">
-                    <h3><a href="#">Análise de dados utilizando SQL</a></h3>
-                    <img src="imagens/promoção.png" alt="" height="180" width="190">
-                    <h4>De: R$ XXX,00</h4>
-                    <h4>Por: R$ XXX,00</h4>
-                </div>
-
-                <div class="">
-                    <h3><a href="#">Sistemas de Redes</a></h3>
-                    <img src="imagens/promoção.png" alt="" height="180" width="190">
-                    <h4>De: R$ XXX,00</h4>
-                    <h4>Por: R$ XXX,00</h4>
-                </div>
-
-                <div class="">
-                    <h3><a href="#">Java para iniciantes</a></h3>
-                    <img src="imagens/promoção.png" alt="" height="180" width="190">
-                    <h4>De: R$ XXX,00</h4>
-                    <h4>Por: R$ XXX,00</h4>
-                </div>
-
-                <div class="">
-                    <h3><a href="#">Progrmação em C++</a></h3>
-                    <img src="imagens/promoção.png" alt="" height="180" width="190">
-                    <h4>De: R$ XXX,00</h4>
-                    <h4>Por: R$ XXX,00</h4>
-                </div>
-            </div>
+        <section class="wellington">
+          
         </section>
-         <!-- -------------------------------------------------------------------------------------- -->
+        <!-- -------------------------------------------------------------------------------------- -->
+      
 
 
         <footer>

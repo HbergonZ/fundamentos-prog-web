@@ -3,6 +3,236 @@
 /* Classes da Marcela */
 /* ----------------------------------------------------------------------------------- */
 
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  background-color: #551851
+  
+}
+
+a {
+  color:aliceblue;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+opacity: 0.7;
+text-decoration: none;
+}
+
+
+.logo {
+font-size: 40px;
+text-transform: uppercase;
+letter-spacing: 4px;
+background: #360834;
+
+}
+
+nav {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+height: 16vh;
+background: #360834;
+}
+
+nav li {
+display: inline-block;
+}
+
+.nav-list li {
+letter-spacing: 3px;
+margin-left: 32px;
+display: incline-block;
+}
+
+.nav-list li:hover{
+  border: 1px solid white;
+  padding: 0px;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.nav-lis li {
+letter-spacing: 3px;
+display: incline-block;
+
+}
+
+.mobile-menu {
+/* display: none; */
+cursor: pointer;
+}
+
+.mobile-menu div {
+width: 32px;
+height: 2px;
+background: #fff;
+margin: 8px;
+}
+
+/* @media (max-width: 999px) {
+.nav-list {
+  position: absolute;
+  top: 8vh;
+  right: 0;
+  width: 50vw;
+  height: 92vh;
+  background: #23232e;
+}
+} */
+.nav-lis {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/* display: incline-block; */
+margin: auto;
+
+}
+
+.lozano-search {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #CCCCCC;
+  width: 240px;
+
+}
+.lozano-search:focus-within {
+border: 2px solid #7c3e7c;
+} 
+
+:placeholder-shown {
+background-color: #360834;
+border: #360834;
+size: 100px;
+}
+
+.cor{
+color:#CCCCCC
+}
+
+.container {
+position:absolute;
+/* transform: translate(-50, -50); */
+}
+
+.button {
+background: rgb(120, 51, 122);
+position: relative;
+text-align: center;
+width: 160px;
+padding: 12px;
+font-size: 15px;
+color: #CCCCCC;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 40;
+border: 2px solid #CCCCCC;
+text-transform: uppercase;
+cursor: pointer;
+border-radius: 100px;
+transition: 1.5s; 
+}
+
+.button:hover 
+{
+box-shadow: 0 5px 50px  0 #CCCCCC inset,  0 5px 50px  0 #CCCCCC,
+            0 5px 50px  0 #CCCCCC inset,  0 5px 50px  0 #CCCCCC;
+text-shadow: 0 0 5px #CCCCCC, 0 0 5px #CCCCCC;
+
+}
+header nav {
+background: #0e000e;
+height: 4vh;
+border-top: 1px solid #964991;
+border-bottom: 1px solid #964991;
+}
+
+header .nav-lis ul {
+display: inline-block;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+header .nav-lis ul li {
+position: relative;
+width: 7rem;
+
+} 
+header .nav-lis li {
+text-align: center;
+
+}
+
+header .nav-lis ul li:hover {
+background: #f7f7f8;
+color: #2a232e;
+}
+
+header .nav-lis ul li ul{
+position: absolute;
+
+width: 160px;
+background: #23232e;
+display: none;
+}
+
+header .nav-lis ul li ul li{
+width: 100%;
+border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+header .nav-lis ul li ul li ul{
+left: 170px;
+top:0;
+}
+header .nav-lis ul li:focus-within > ul,
+header .nav-lis ul li:hover > ul {
+display: initial;
+}
+
+.img-top{
+  background-color: black;
+  background-image: url(/imagens/bcknav.jpg);
+  background-size:60%;
+  background-position: center right;
+  background-repeat: no-repeat;
+  color:white;
+  height: 30rem;
+  width: 100%;
+  border-bottom: 1px solid #964991;
+}
+
+.img-top h2{
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-family: Impact;
+  margin-left: 4rem;
+  
+  margin-right: 50%;
+  -webkit-text-stroke: 1.3px black; /* width and color */
+
+  font-family: Impact; color: white;
+}
+.img-top p{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-left: 4rem;
+  margin-right: 50%;
+  
+}
+
+.img-top .botao{
+  margin-top: auto;
+  margin-left: 4rem
+}
 
 
 
@@ -13,14 +243,15 @@
 /* Classes do Luis */
 /* ----------------------------------------------------------------------------------- */
 
-.carousel-inner{
-  background-color: rgb(34, 34, 71);
-  border: 4rem solid;
+.carrossel-dentro{
+  
+  /* border: 4rem solid;
   border-radius: 3rem;
-  border-color: rgb(175, 208, 236);
+  border-color: rgb(175, 208, 236); */
+  background: #8f3f8f;
   border-width: 3px;
-  width: 70rem!important;
-  margin: auto;
+  width: 100%!important;
+  margin-top: 3rem auto;
 }
 
 .cards-wrapper {
@@ -39,26 +270,29 @@
 
 }
 .card {
-  margin: 1rem;
+  margin: .5rem;
   height: 20rem;
-  min-width: 20rem!important;
+  min-width: 36rem!important;
   max-width: 20rem;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-  border: none;
-  border-radius: 0;
+  border: 2px solid ;
+  border-radius: 3rem;
   text-align: justify;
   color: white;
   width: 20%!important;
-  border-width: 0.2rem!important;
-  border-color: purple!important;
   background-image: url(/imagens/curso.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .card1{
   background-image: url(/imagens/segurancati.png);
+  height: 13.8rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  border-radius: 0 0 3rem  3rem;
+
 }
 .card2{
   background-image: url(/imagens/python.jpg);
@@ -80,8 +314,45 @@
 
 .card-text{
   font-size: 1rem;
+}
+
+.cartao-texto{
+  background-color: rgb(6, 5, 7);
+  margin-top: -1.3rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  border-radius: 3rem  3rem 0 0;
   
 }
+
+.cartao-texto p, .cartao-texto h5{
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 1%;
+}
+
+
+
+
+
+
+.titulo-principal{
+  color: rgb(255, 255, 255);
+  margin: 3rem 0 65px 0;
+  text-align: center;
+}
+
+.titulo-principal h3{
+  font-size: 3rem;
+}
+
+.teste{
+  width: 15rem;
+  margin: -0.5rem auto auto auto;
+  border-bottom: 2px solid rgb(248, 247, 247);
+}
+
 .carousel-inner {
   padding: 1em;
 }
@@ -108,10 +379,14 @@
   margin: 8.5rem 5.8rem;
   background-color: purple!important;
   border: none!important;
-  color: white!important;;
+  color: rgb(255, 255, 255, 1),!important;;
   /* transform: translateY(8.5rem); */
-  
+}
 
+.btn:hover{
+  background-color: white!important;
+  color: purple!important;
+  
 }
 
 @media (max-width: 768px) {
@@ -143,6 +418,10 @@
 /* ----------------------------------------------------------------------------------- */
 
 
+
+
+
+/* ----------------------------------------------------------------------------------- */
 
 
 
